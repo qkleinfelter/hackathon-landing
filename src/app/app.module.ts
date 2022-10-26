@@ -17,7 +17,8 @@ import { LeaderboardCardComponent } from './pages/leaderboard/leaderboard-card/l
     LeaderboardComponent,
     UserComponent,
     SidebarComponent,
-    AirHockeyComponent
+    AirHockeyComponent,
+    LeaderboardCardComponent
   ],
   imports: [
     BrowserModule,

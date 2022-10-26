@@ -1,15 +1,174 @@
+@import "../../../variables.scss";
+
 .leaderboard-container {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: $background-color;
 
     .header {
-        width: 100%;
+        width: calc(100% - 32px);
         height: 96px;
         font-size: 64px;
         margin-top: 32px;
         margin-left: 32px;
+    }
+
+    .leaderboard {
+        width: calc(100% - 64px);
+        margin-left: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $background-color;
+
+        .card {
+            border-radius: 12px;
+            margin-top: 16px;
+            display: flex;
+            align-items: center;
+            color: $background-color;
+        }
+
+        .first {
+            height: 128px;
+            width: 100%;
+            background-color: #E8B923;
+
+            .number {
+                font-size: 64px;
+                width: 96px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                font-size: 32px;
+                width: calc(100% - 192px);
+
+                .stats {
+                    margin-top: 8px;
+                    font-size: 24px;
+                }
+            }
+            .hacks {
+                width: 352px;
+                font-size: 32px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-right: 16px;
+            }
+        }
+
+        .second {
+            height: 96px;
+            width: calc(100% - 32px);
+            background-color: #E82323;
+
+            .number {
+                font-size: 48px;
+                width: 96px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                font-size: 28px;
+                width: calc(100% - 192px);
+
+                .stats {
+                    margin-top: 8px;
+                    font-size: 16px;
+                }
+            }
+            .hacks {
+                width: 352px;
+                font-size: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-right: 16px;
+            }
+        }
+
+        .third {
+            height: 64px;
+            width: calc(100% - 64px);
+            background-color: #2372E8;
+
+            .number {
+                font-size: 32px;
+                width: 96px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                font-size: 24px;
+                width: calc(100% - 352px);
+
+                .stats {
+                    margin-top: 4px;
+                    font-size: 16px;
+                }
+            }
+
+            .hacks {
+                width: 352px;
+                font-size: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-right: 16px;
+            }
+        }
+
+        .default {
+            height: 64px;
+            width: calc(100% - 64px);
+            background-color: #EBE8F5;
+            color: #292929;
+
+            .number {
+                font-size: 32px;
+                width: 96px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                font-size: 24px;
+                width: calc(100% - 352px);
+
+                .stats {
+                    margin-top: 4px;
+                    font-size: 16px;
+                }
+            }
+
+            .hacks {
+                width: 352px;
+                font-size: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-right: 16px;
+            }
+        }
     }
 
     .filters {
