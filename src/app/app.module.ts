@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { LeaderboardComponent } from './pages/leaderboard/leaderboard.component';
 import { UserComponent } from './pages/user/user.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
+import { AirHockeyComponent } from './pages/air-hockey/air-hockey.component';
 import { LeaderboardCardComponent } from './pages/leaderboard/leaderboard-card/leaderboard-card.component';
 
 @NgModule({
@@ -16,7 +17,7 @@ import { LeaderboardCardComponent } from './pages/leaderboard/leaderboard-card/l
     LeaderboardComponent,
     UserComponent,
     SidebarComponent,
-    LeaderboardCardComponent
+    AirHockeyComponent
   ],
   imports: [
     BrowserModule,
