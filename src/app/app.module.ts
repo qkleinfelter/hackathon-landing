@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { LeaderboardComponent } from './pages/leaderboard/leaderboard.component';
 import { UserComponent } from './pages/user/user.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
+import { AirHockeyComponent } from './pages/air-hockey/air-hockey.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
     HomeComponent,
     LeaderboardComponent,
     UserComponent,
-    SidebarComponent
+    SidebarComponent,
+    AirHockeyComponent
   ],
   imports: [
     BrowserModule,
