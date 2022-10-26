@@ -1,0 +1,62 @@
+@import "../../../variables.scss";
+
+.sidebar-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $sidebar-color;
+    color: $sidebar-text-color;
+
+    .header {
+        width: 100%;
+        min-height: 128px;
+        max-height: 128px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .user {
+            width: calc(100% - 32px);
+            height: 96px;
+            border: 1px solid $sidebar-text-color;
+            border-radius: 12px;
+        }
+    }
+
+
+    .list-items {
+        width: calc(100% - 32px);
+        display: flex;
+        flex-direction: column;
+
+        .item {
+            width: 100%;
+            height: 64px;
+            background-color: $sidebar-item-color;
+            border-radius: 12px;
+            margin-top: 8px;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.025);
+            }
+
+            .icon {
+                width: 64px;
+                height: 64px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 8px;
+            }
+            .title {
+                font-size: 24px;
+            }
+        }
+    }
+}
