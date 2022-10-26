@@ -21,7 +21,7 @@ export class LeaderboardComponent implements OnInit {
     'Dec'
   ]
 
-  selectedFilter = 'Sep';
+  selectedFilter = 'Oct';
 
   constructor() { }
 

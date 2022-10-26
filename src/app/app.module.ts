@@ -23,7 +23,8 @@ import { EightBallComponent } from './shared/eight-ball/eight-ball.component';
     AirHockeyComponent,
     GameCenterComponent,
     GameTileComponent,
-    EightBallComponent
+    EightBallComponent,
+    LeaderboardCardComponent
   ],
   imports: [
     BrowserModule,
