@@ -9,6 +9,9 @@ import { UserComponent } from './pages/user/user.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { AirHockeyComponent } from './pages/air-hockey/air-hockey.component';
 import { LeaderboardCardComponent } from './pages/leaderboard/leaderboard-card/leaderboard-card.component';
+import { GameCenterComponent } from './pages/game-center/game-center.component';
+import { GameTileComponent } from './shared/game-tile/game-tile.component';
+import { EightBallComponent } from './shared/eight-ball/eight-ball.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { LeaderboardCardComponent } from './pages/leaderboard/leaderboard-card/l
     LeaderboardComponent,
     UserComponent,
     SidebarComponent,
-    AirHockeyComponent
+    AirHockeyComponent,
+    GameCenterComponent,
+    GameTileComponent,
+    EightBallComponent
   ],
   imports: [
     BrowserModule,
