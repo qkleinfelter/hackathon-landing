@@ -1,8 +1,10 @@
 .container {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 
-  .center {
-    margin-left: auto;
-    margin-right: auto;
+  .break {
+    flex-basis: 100%;
   }
 }
