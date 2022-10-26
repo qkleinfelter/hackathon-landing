@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { LeaderboardComponent } from './pages/leaderboard/leaderboard.component';
 import { UserComponent } from './pages/user/user.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
+import { LeaderboardCardComponent } from './pages/leaderboard/leaderboard-card/leaderboard-card.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
     HomeComponent,
     LeaderboardComponent,
     UserComponent,
-    SidebarComponent
+    SidebarComponent,
+    LeaderboardCardComponent
   ],
   imports: [
     BrowserModule,

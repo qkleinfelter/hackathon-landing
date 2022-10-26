@@ -6,10 +6,29 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./leaderboard.component.scss']
 })
 export class LeaderboardComponent implements OnInit {
+  dates = [
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec'
+  ]
+
+  selectedFilter = 'Sep';
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  selectFilter(date: string): void {
+    this.selectedFilter = date;
+  }
 }
